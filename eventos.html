@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto San Francisco de Asís | Eventos</title>
+    <meta name="description" content="Consulta brigadas médicas, jornadas y actividades del Proyecto San Francisco de Asís." />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <div class="marca">
+                <img src="img/logo-proyecto.png" alt="Logo del Proyecto San Francisco de Asís" />
+                <div class="marca-texto">
+                    <h1>Proyecto San Francisco de Asís</h1>
+                    <p>Salud y servicio para la comunidad</p>
+                </div>
+            </div>
+
+            <button type="button" id="btnMenu" class="btn-menu">Menú</button>
+
+            <nav id="menuPrincipal" class="menu-principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="ayudar.html">Cómo ayudar</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="eventos.html" class="activo">Eventos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner-eventos">
+            <div class="banner-eventos-capa">
+                <div class="contenedor banner-eventos-contenido">
+                    <span class="banner-programas-etiqueta">Brigadas, jornadas y actividades</span>
+                    <h2>Eventos del Proyecto</h2>
+                    <p>
+                        En este espacio compartimos brigadas médicas, jornadas comunitarias, actividades educativas y eventos importantes relacionados con la labor del proyecto.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Actividad destacada</h2>
+                    <p>
+                        Un espacio para resaltar una brigada, jornada o actividad importante del proyecto.
+                    </p>
+                </div>
+
+                <article class="evento-destacado">
+                    <div class="evento-destacado-imagen">
+                        <img src="img/noticia-1.jpg" alt="Reinauguración del laboratorio del proyecto" />
+                    </div>
+
+                    <div class="evento-destacado-texto">
+                        <span class="evento-chip">Actividad realizada</span>
+                        <h3>Reinauguración del Laboratorio Santa María</h3>
+                        <p class="evento-meta-grande">7 de noviembre de 2023 · Reitoca, Francisco Morazán</p>
+                        <p>
+                            La ceremonia de reinauguración del Laboratorio Santa María y la develación de la placa de agradecimiento marcaron un momento importante para el fortalecimiento de los servicios brindados por el proyecto.
+                        </p>
+                        <p>
+                            Esta actividad representó el impacto del proceso de modernización y equipamiento del laboratorio, orientado a mejorar la atención y la capacidad diagnóstica para beneficio de la comunidad.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion fondo-suave">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Próximas brigadas y jornadas</h2>
+                    <p>
+                        Aquí puedes colocar las actividades futuras del proyecto. Te las dejo listas para que solo cambies fecha o detalles cuando los tengas.
+                    </p>
+                </div>
+
+                <div class="agenda-grid">
+                    <article class="agenda-card">
+                        <div class="agenda-card-fecha">
+                            <span>Fecha</span>
+                            <strong>Por confirmar</strong>
+                        </div>
+                        <div class="agenda-card-texto">
+                            <h3>Brigada médica comunitaria</h3>
+                            <p>
+                                Jornada orientada a brindar atención básica, valoración médica y acompañamiento a personas de la comunidad.
+                            </p>
+                            <ul>
+                                <li><strong>Horario:</strong> 8:00 a.m. a 1:00 p.m.</li>
+                                <li><strong>Lugar:</strong> Reitoca o comunidad aledaña</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="agenda-card">
+                        <div class="agenda-card-fecha">
+                            <span>Fecha</span>
+                            <strong>Por confirmar</strong>
+                        </div>
+                        <div class="agenda-card-texto">
+                            <h3>Jornada de nutrición infantil</h3>
+                            <p>
+                                Actividad pensada para evaluación, orientación alimentaria y seguimiento a niños dentro del programa de nutrición infantil.
+                            </p>
+                            <ul>
+                                <li><strong>Horario:</strong> 9:00 a.m. a 12:00 m.</li>
+                                <li><strong>Lugar:</strong> Clínica Santa María</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="agenda-card">
+                        <div class="agenda-card-fecha">
+                            <span>Fecha</span>
+                            <strong>Por confirmar</strong>
+                        </div>
+                        <div class="agenda-card-texto">
+                            <h3>Capacitación para familias</h3>
+                            <p>
+                                Espacio educativo sobre alimentación adecuada, higiene, lactancia materna y hábitos saludables.
+                            </p>
+                            <ul>
+                                <li><strong>Horario:</strong> 2:00 p.m. a 4:00 p.m.</li>
+                                <li><strong>Lugar:</strong> Salón comunitario o parroquial</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Actividades realizadas</h2>
+                    <p>
+                        Un resumen de algunas actividades importantes que han formado parte del trabajo del proyecto.
+                    </p>
+                </div>
+
+                <div class="linea-eventos">
+                    <article class="linea-item">
+                        <div class="linea-punto"></div>
+                        <div class="linea-contenido">
+                            <span class="linea-fecha">7 de noviembre de 2023</span>
+                            <h3>Reinauguración del Laboratorio Santa María</h3>
+                            <p>
+                                Ceremonia realizada para mostrar el fortalecimiento del laboratorio y agradecer el apoyo recibido para su modernización.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="linea-item">
+                        <div class="linea-punto"></div>
+                        <div class="linea-contenido">
+                            <span class="linea-fecha">2022 - 2024</span>
+                            <h3>Proceso de modernización y equipamiento del laboratorio</h3>
+                            <p>
+                                Período de mejoras orientado a aumentar la capacidad de análisis y fortalecer la atención a pacientes.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="linea-item">
+                        <div class="linea-punto"></div>
+                        <div class="linea-contenido">
+                            <span class="linea-fecha">Nueva iniciativa</span>
+                            <h3>Diseño del programa de nutrición infantil</h3>
+                            <p>
+                                Proyecto orientado a evaluaciones nutricionales, educación alimentaria y apoyo a niños de comunidades del sur de Francisco Morazán.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor pie-contenido">
+            <div>
+                <h3>Ubicación</h3>
+                <p>Reitoca, Francisco Morazán, Honduras</p>
+            </div>
+
+            <div>
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Apoyo</h3>
+                <p>Organización sin fines de lucro al servicio de la comunidad.</p>
+            </div>
+        </div>
+
+        <div class="copy">
+            <p>&copy; 2026 Proyecto San Francisco de Asís</p>
+        </div>
+    </footer>
+</body>
+</html>

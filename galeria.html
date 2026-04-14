@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto San Francisco de Asís | Galería</title>
+    <meta name="description" content="Galería de imágenes del Proyecto San Francisco de Asís." />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <div class="marca">
+                <img src="img/logo-proyecto.png" alt="Logo del Proyecto San Francisco de Asís" />
+                <div class="marca-texto">
+                    <h1>Proyecto San Francisco de Asís</h1>
+                    <p>Salud y servicio para la comunidad</p>
+                </div>
+            </div>
+
+            <button type="button" id="btnMenu" class="btn-menu">Menú</button>
+
+            <nav id="menuPrincipal" class="menu-principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="ayudar.html">Cómo ayudar</a></li>
+                    <li><a href="galeria.html" class="activo">Galería</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="galeria-simple">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Galería de Fotos</h2>
+                    <p>
+                        Imágenes del trabajo, la atención y los espacios del Proyecto San Francisco de Asís.
+                    </p>
+                </div>
+
+                <div class="carrusel-galeria" id="carruselGaleria">
+                    <button type="button" class="carrusel-boton carrusel-boton-izq" id="btnAnterior">‹</button>
+
+                    <div class="franja-visor" id="franjaVisor">
+                        <div class="franja-track" id="franjaTrack">
+
+                            <article class="franja-item vertical">
+                                <img src="img/img1.jpeg" alt="Atención médica a paciente" />
+                            </article>
+
+                            <article class="franja-item horizontal">
+                                <img src="img/img2.jpeg" alt="Consulta médica en escritorio" />
+                            </article>
+
+                            <article class="franja-item vertical">
+                                <img src="img/img3.jpeg" alt="Toma de muestra en laboratorio" />
+                            </article>
+
+                            <article class="franja-item vertical">
+                                <img src="img/img4.jpeg" alt="Atención clínica a paciente" />
+                            </article>
+
+                            <article class="franja-item vertical">
+                                <img src="img/img5.jpeg" alt="Trabajo en laboratorio con microscopio" />
+                            </article>
+
+                            <article class="franja-item horizontal">
+                                <img src="img/img7.jpeg" alt="Instalaciones del laboratorio" />
+                            </article>
+
+                            <article class="franja-item horizontal">
+                                <img src="img/img8.jpeg" alt="Modernización del laboratorio" />
+                            </article>
+
+                            <article class="franja-item vertical">
+                                <img src="img/programa-clinica.jpeg" alt="Espacio clínico del proyecto" />
+                            </article>
+
+                            <article class="franja-item horizontal">
+                                <img src="img/nutri.jpeg" alt="Modernización del laboratorio" />
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <button type="button" class="carrusel-boton carrusel-boton-der" id="btnSiguiente">›</button>
+                </div>
+
+                <div class="carrusel-indicadores" id="carruselIndicadores"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor pie-contenido">
+            <div>
+                <h3>Ubicación</h3>
+                <p>Reitoca, Francisco Morazán, Honduras</p>
+            </div>
+
+            <div>
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Apoyo</h3>
+                <p>Organización sin fines de lucro al servicio de la comunidad.</p>
+            </div>
+        </div>
+
+        <div class="copy">
+            <p>&copy; 2026 Proyecto San Francisco de Asís</p>
+        </div>
+    </footer>
+</body>
+</html>

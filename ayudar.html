@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto San Francisco de Asís | Cómo ayudar</title>
+    <meta name="description" content="Conoce cómo puedes ayudar al Proyecto San Francisco de Asís por medio de donaciones, voluntariado y participación en actividades." />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <div class="marca">
+                <img src="img/logo-proyecto.png" alt="Logo del Proyecto San Francisco de Asís" />
+                <div class="marca-texto">
+                    <h1>Proyecto San Francisco de Asís</h1>
+                    <p>Salud y servicio para la comunidad</p>
+                </div>
+            </div>
+
+            <button type="button" id="btnMenu" class="btn-menu">Menú</button>
+
+            <nav id="menuPrincipal" class="menu-principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="ayudar.html" class="activo">Cómo ayudar</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner-ayudar">
+            <div class="banner-ayudar-capa">
+                <div class="contenedor banner-ayudar-contenido">
+                    <h2> ¿Cómo puedes ayudar ?</h2>
+                    <p>
+                        Existen diferentes maneras de apoyar al Proyecto San Francisco de Asís. Tu ayuda puede convertirse en atención médica, estudios clínicos, medicamentos y acompañamiento para muchas familias.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Formas de colaborar</h2>
+                    <p>
+                        Puedes apoyar esta labor social de distintas maneras, según tus posibilidades y tu disponibilidad.
+                    </p>
+                </div>
+
+                <div class="ayuda-grid">
+                    <article class="ayuda-card">
+                        <h3>Donaciones</h3>
+                        <p>
+                            Tu aporte económico puede ayudar a sostener la atención médica, la compra de medicamentos y el funcionamiento de los servicios del proyecto.
+                        </p>
+                        <a href="donaciones.html">Ir a donaciones</a>
+                    </article>
+
+                    <article class="ayuda-card">
+                        <h3>Voluntariado</h3>
+                        <p>
+                            Puedes colaborar brindando tu tiempo, apoyo en actividades, acompañamiento o participación en jornadas y eventos comunitarios.
+                        </p>
+                        <a href="#formVoluntariado">Quiero ser voluntario</a>
+                    </article>
+
+                    <article class="ayuda-card">
+                        <h3>Difusión</h3>
+                        <p>
+                            Compartir la labor del proyecto con otras personas también ayuda a que más gente conozca la causa y se sume a apoyar.
+                        </p>
+                        <a href="blog.html">Conocer más</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion fondo-suave">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>¿Cómo funciona el apoyo?</h2>
+                    <p>
+                        Hemos pensado este proceso de forma sencilla para que cualquier persona pueda colaborar.
+                    </p>
+                </div>
+
+                <div class="pasos-grid">
+                    <article class="paso-card">
+                        <span class="paso-numero">1</span>
+                        <h3>Elige cómo ayudar</h3>
+                        <p>Decide si deseas colaborar con donaciones, voluntariado o apoyo en actividades del proyecto.</p>
+                    </article>
+
+                    <article class="paso-card">
+                        <span class="paso-numero">2</span>
+                        <h3>Completa tu información</h3>
+                        <p>Llena el formulario con tus datos para que podamos conocer tu interés y contactarte.</p>
+                    </article>
+
+                    <article class="paso-card">
+                        <span class="paso-numero">3</span>
+                        <h3>Nos comunicamos contigo</h3>
+                        <p>El proyecto podrá ponerse en contacto contigo para darte seguimiento y orientarte.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="contenedor voluntariado-seccion">
+                <div class="voluntariado-info">
+
+                    <h2>Forma parte del cambio</h2>
+                    <p>
+                        Ser voluntario es una manera valiosa de contribuir al bienestar de la comunidad. Puedes apoyar en actividades, jornadas, acompañamiento, organización y otras áreas según la necesidad del proyecto.
+                    </p>
+                    <p>
+                        Completa este formulario si deseas que te tomemos en cuenta como posible voluntario o voluntaria.
+                    </p>
+
+                    <div class="voluntariado-lista">
+                        <p>✔ Apoyo en actividades comunitarias</p>
+                        <p>✔ Participación en jornadas o eventos</p>
+                        <p>✔ Tiempo y servicio a favor de la comunidad</p>
+                    </div>
+                </div>
+
+                <div class="panel-formulario">
+                    <h2 class="titulo-formulario">Formulario de voluntariado</h2>
+
+                    <form id="formVoluntariado" action="ayudar.html" method="get">
+                        <div class="fila-formulario">
+                            <div class="grupo-formulario">
+                                <label for="txtNombreVoluntario">Nombre completo</label>
+                                <input type="text" id="txtNombreVoluntario" name="txtNombreVoluntario" placeholder="Escribe tu nombre completo" />
+                            </div>
+
+                            <div class="grupo-formulario">
+                                <label for="txtTelefonoVoluntario">Teléfono</label>
+                                <input type="text" id="txtTelefonoVoluntario" name="txtTelefonoVoluntario" placeholder="Tu número de teléfono" />
+                            </div>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label for="txtCorreoVoluntario">Correo electrónico</label>
+                            <input type="text" id="txtCorreoVoluntario" name="txtCorreoVoluntario" placeholder="Tu correo electrónico" />
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label for="txtMotivoVoluntario">¿Por qué deseas ayudar?</label>
+                            <textarea id="txtMotivoVoluntario" name="txtMotivoVoluntario" placeholder="Escribe brevemente por qué deseas formar parte del voluntariado"></textarea>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <button type="submit" class="boton boton-principal boton-formulario">Enviar solicitud</button>
+                        </div>
+
+                        <p id="mensajeVoluntariado" class="mensaje-formulario"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="pie-pagina">
+        <div class="contenedor pie-contenido">
+            <div>
+                <h3>Ubicación</h3>
+                <p>Reitoca, Francisco Morazán, Honduras</p>
+            </div>
+
+            <div>
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Apoyo</h3>
+                <p>Organización sin fines de lucro al servicio de la comunidad.</p>
+            </div>
+        </div>
+
+        <div class="copy">
+            <p>&copy; 2026 Proyecto San Francisco de Asís</p>
+        </div>
+    </footer>
+</body>
+</html>
