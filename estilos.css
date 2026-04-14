@@ -1741,7 +1741,7 @@ ul {
 
 /* PAGINA CONTACTO */
 .banner-contacto {
-    background-image: linear-gradient(rgba(43, 43, 43, 0.45), rgba(43, 43, 43, 0.45)), url("img/contacto-banner.jpg");
+    background-image: linear-gradient(rgba(43, 43, 43, 0.45), rgba(43, 43, 43, 0.45)), url("img/contactanos.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1845,7 +1845,7 @@ ul {
 
 /* PAGINA DONACIONES */
 .banner-donaciones {
-    background-image: linear-gradient(rgba(43, 43, 43, 0.45), rgba(43, 43, 43, 0.45)), url("img/donaciones-banner.jpg");
+    background-image: linear-gradient(rgba(43, 43, 43, 0.45), rgba(43, 43, 43, 0.45)), url("img/donacion.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1964,7 +1964,7 @@ ul {
 
 /* PAGINA FAQ */
 .banner-faq {
-    background-image: linear-gradient(rgba(43, 43, 43, 0.45), rgba(43, 43, 43, 0.45)), url("img/faq-banner.jpg");
+    background-image: linear-gradient(rgba(43, 43, 43, 0.45), rgba(43, 43, 43, 0.45)), url("img/FAQ.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
