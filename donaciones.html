@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto San Francisco de Asís | Donaciones</title>
+    <meta name="description" content="Apoya al Proyecto San Francisco de Asís por medio de donaciones para fortalecer su labor de salud y servicio comunitario." />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <div class="marca">
+                <img src="img/logo-proyecto.png" alt="Logo del Proyecto San Francisco de Asís" />
+                <div class="marca-texto">
+                    <h1>Proyecto San Francisco de Asís</h1>
+                    <p>Salud y servicio para la comunidad</p>
+                </div>
+            </div>
+
+            <button type="button" id="btnMenu" class="btn-menu">Menú</button>
+
+            <nav id="menuPrincipal" class="menu-principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="ayudar.html">Cómo ayudar</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="donaciones.html" class="activo">Donaciones</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner-donaciones">
+            <div class="banner-donaciones-capa">
+                <div class="contenedor banner-donaciones-contenido">
+                    <span class="banner-programas-etiqueta">Tu ayuda puede transformar vidas</span>
+                    <h2>Donaciones</h2>
+                    <p>
+                        Cada aporte ayuda a fortalecer la atención médica, los estudios clínicos, el acceso a medicamentos y el acompañamiento a familias que más lo necesitan.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>¿Qué apoyan las donaciones?</h2>
+                    <p>
+                        Las contribuciones permiten sostener diferentes áreas del proyecto y responder a necesidades reales de la comunidad.
+                    </p>
+                </div>
+
+                <div class="donaciones-grid">
+                    <article class="donacion-card">
+                        <h3>Atención médica</h3>
+                        <p>
+                            Ayuda a fortalecer consultas, jornadas comunitarias y actividades de acompañamiento en salud.
+                        </p>
+                    </article>
+
+                    <article class="donacion-card">
+                        <h3>Laboratorio clínico</h3>
+                        <p>
+                            Contribuye a la realización de estudios y al apoyo diagnóstico para pacientes de la zona.
+                        </p>
+                    </article>
+
+                    <article class="donacion-card">
+                        <h3>Medicamentos</h3>
+                        <p>
+                            Permite apoyar a personas y familias que necesitan tratamiento y no siempre cuentan con recursos.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion fondo-suave">
+            <div class="contenedor donacion-destacada">
+                <div class="donacion-destacada-texto">
+                    <span class="subtitulo-seccion">Aporte con propósito</span>
+                    <h2>Tu donación suma esperanza y bienestar</h2>
+                    <p>
+                        Apoyar este proyecto es una manera de colaborar con una labor social que busca acercar servicios de salud dignos, accesibles y humanos a comunidades vulnerables.
+                    </p>
+                    <p>
+                        Puedes realizar aportes económicos, apoyo en especie o manifestar tu interés para recibir información sobre futuras campañas de ayuda.
+                    </p>
+
+                    <div class="donacion-lista">
+                        <p>✔ Apoyo a servicios médicos</p>
+                        <p>✔ Fortalecimiento del laboratorio</p>
+                        <p>✔ Medicamentos y atención comunitaria</p>
+                    </div>
+                </div>
+
+               <div class="panel-formulario">
+    <h2 class="titulo-formulario">Formulario de donación</h2>
+
+    <form id="formDonaciones" action="donaciones.html" method="get">
+        <div class="fila-formulario">
+            <div class="grupo-formulario">
+                <label for="txtNombreDonante">Nombre completo</label>
+                <input type="text" id="txtNombreDonante" name="txtNombreDonante" placeholder="Escribe tu nombre completo" />
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="txtTelefonoDonante">Teléfono</label>
+                <input type="text" id="txtTelefonoDonante" name="txtTelefonoDonante" placeholder="Tu número de teléfono" />
+            </div>
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="txtCorreoDonante">Correo electrónico</label>
+            <input type="text" id="txtCorreoDonante" name="txtCorreoDonante" placeholder="Tu correo electrónico" />
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="txtComentarioDonacion">Mensaje o detalle de tu apoyo</label>
+            <textarea id="txtComentarioDonacion" name="txtComentarioDonacion" placeholder="Escribe un mensaje breve sobre tu donación o tu interés en apoyar"></textarea>
+        </div>
+
+        <div class="grupo-formulario grupo-boton-formulario">
+            <button type="submit" class="boton boton-principal boton-formulario">
+                Enviar información
+            </button>
+        </div>
+
+        <p id="mensajeDonacion" class="mensaje-formulario"></p>
+    </form>
+</div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor pie-contenido">
+            <div>
+                <h3>Ubicación</h3>
+                <p>Reitoca, Francisco Morazán, Honduras</p>
+            </div>
+
+            <div>
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Apoyo</h3>
+                <p>Organización sin fines de lucro al servicio de la comunidad.</p>
+            </div>
+        </div>
+
+        <div class="copy">
+            <p>&copy; 2026 Proyecto San Francisco de Asís</p>
+        </div>
+    </footer>
+</body>
+</html>

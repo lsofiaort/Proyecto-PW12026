@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto San Francisco de Asís | Contacto</title>
+    <meta name="description" content="Contáctanos para conocer más sobre el Proyecto San Francisco de Asís, sus programas y formas de apoyo." />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <div class="marca">
+                <img src="img/logo-proyecto.png" alt="Logo del Proyecto San Francisco de Asís" />
+                <div class="marca-texto">
+                    <h1>Proyecto San Francisco de Asís</h1>
+                    <p>Salud y servicio para la comunidad</p>
+                </div>
+            </div>
+
+            <button type="button" id="btnMenu" class="btn-menu">Menú</button>
+
+            <nav id="menuPrincipal" class="menu-principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="ayudar.html">Cómo ayudar</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="contacto.html" class="activo">Contacto</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner-contacto">
+            <div class="banner-contacto-capa">
+                <div class="contenedor banner-contacto-contenido">
+                    <span class="banner-programas-etiqueta">Estamos para ayudarte</span>
+                    <h2>Contáctanos</h2>
+                    <p>
+                        Si deseas comunicarte con el proyecto, pedir información o conocer más sobre nuestros servicios y actividades, puedes escribirnos por medio de este formulario.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="contenedor contacto-seccion">
+                <div class="contacto-info">
+                    <span class="subtitulo-seccion">Información de contacto</span>
+                    <h2>Será un gusto atenderte</h2>
+                    <p>
+                        Puedes utilizar este espacio para colocar los medios oficiales de contacto del proyecto y orientar a las personas que deseen comunicarse.
+                    </p>
+
+                    <div class="contacto-datos">
+                        <div class="contacto-item">
+                            <h3>Ubicación</h3>
+                            <p>Reitoca, Francisco Morazán, Honduras</p>
+                        </div>
+
+                        <div class="contacto-item">
+                            <h3>Correo electrónico</h3>
+                            <p>proyecto@sanfrancisco.org</p>
+                        </div>
+
+                        <div class="contacto-item">
+                            <h3>Teléfono</h3>
+                            <p>+504 0000-0000</p>
+                        </div>
+
+                        <div class="contacto-item">
+                            <h3>Horario de atención</h3>
+                            <p>Lunes a viernes de 8:00 a.m. a 4:00 p.m.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-formulario">
+                    <h2 class="titulo-formulario">Formulario de contacto</h2>
+
+                    <form id="formContacto" action="contacto.html" method="get">
+                        <div class="fila-formulario">
+                            <div class="grupo-formulario">
+                                <label for="txtNombreContacto">Nombre completo</label>
+                                <input type="text" id="txtNombreContacto" name="txtNombreContacto" placeholder="Escribe tu nombre completo" />
+                            </div>
+
+                            <div class="grupo-formulario">
+                                <label for="txtTelefonoContacto">Teléfono</label>
+                                <input type="text" id="txtTelefonoContacto" name="txtTelefonoContacto" placeholder="Tu número de teléfono" />
+                            </div>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label for="txtCorreoContacto">Correo electrónico</label>
+                            <input type="text" id="txtCorreoContacto" name="txtCorreoContacto" placeholder="Tu correo electrónico" />
+                        </div>
+
+                       
+                        <div class="grupo-formulario">
+                            <label for="txtMensajeContacto">Mensaje</label>
+                            <textarea id="txtMensajeContacto" name="txtMensajeContacto" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <button type="submit" class="boton boton-principal boton-formulario">Enviar mensaje</button>
+                        </div>
+
+                        <p id="mensajeContacto" class="mensaje-formulario"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor pie-contenido">
+            <div>
+                <h3>Ubicación</h3>
+                <p>Reitoca, Francisco Morazán, Honduras</p>
+            </div>
+
+            <div>
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Apoyo</h3>
+                <p>Organización sin fines de lucro al servicio de la comunidad.</p>
+            </div>
+        </div>
+
+        <div class="copy">
+            <p>&copy; 2026 Proyecto San Francisco de Asís</p>
+        </div>
+    </footer>
+</body>
+</html>
